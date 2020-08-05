@@ -4,6 +4,36 @@
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
 
+//$(document).ready(function(){       
+//   var scroll_pos = 0;
+//   $(document).scroll(function() { 
+//       scroll_pos = $(this).scrollTop();
+//       if(scroll_pos > 390) {
+//           $("#header a").addClass("scroll_prop_move");
+//			$("#header a").removeClass("scroll_prop_still");
+//
+//			$("#nav").addClass("scroll_prop_move");
+//			$("#nav").removeClass("scroll_prop_still");
+//
+//			$("ul").addClass("scroll_prop_move");
+//			$("ul").removeClass("scroll_prop_still");
+//       } 
+//       else {
+//			$("#header a").removeClass("scroll_prop_move");
+//			$("#header a").addClass("scroll_prop_still");
+//
+//			$("#nav").removeClass("scroll_prop_move");
+//			$("#nav").addClass("scroll_prop_still");
+//
+//
+//			$("ul").removeClass("scroll_prop_move");
+//			$("ul").addClass("scroll_prop_still");
+//          
+//       } 
+//   });
+//);
+//
+
 (function($) {
 
 	// Breakpoints.
@@ -60,6 +90,8 @@
 			if (skel.vars.os == 'wp' && skel.vars.osVersion < 10)
 				$('#navPanel')
 					.css('transition', 'none');
+
+		
 
 	});
 

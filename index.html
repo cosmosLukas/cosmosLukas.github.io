@@ -16,27 +16,21 @@
 		<!-- Header -->
 			<header id="header">
 				<div class="inner">
-					<!-- <a href="index.html" class="logo">LMZ</a> -->
+					<!--<a href="index.html" class="logo">LMZ</a> -->
 					<nav id="nav">
-						<a  href="index.html" class="active_page">Home</a>
+						<a  href="index.html" >Home</a>
 						<a  href="research.html">Research</a>
 						<a  href="code_resources.html">Code/Resources</a>
 						<a  href="outreach.html">Outreach</a>
 						<a href="lukaszalesky_cv.pdf" > CV</a>
 					</nav>
-					<ul class="icons">
-						<li><a href="mailto:zalesky@hawaii.edu" class="icon fa-envelope"><span class="label">Twitter</span></a></li>
-						<li><a href="https://www.facebook.com/lukas.zalesky.1238" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-						<li><a href="https://twitter.com/cosmos_lukas" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-						
-						<!-- <li><a href="#" class="icon fa-linkedin"><span class="label">linkedIn</span></a></li> -->
-					</ul>
-					<a href="#" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+					<a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
 				</div>
+				
 			</header>
 
 		<!-- Banner -->
-			<section id="banner">
+			<section id="banner" style="background-image: url('images/spitzer_center.jpg');">
 				<h1 style="color:white"> Lukas M. Zalesky: Astrophysics  </h1>
 				<p style="color:white">"Ex astris, scientia"</p>
 			</section>
@@ -48,7 +42,7 @@
 					<header>
 						<h2>About Me
 						</h2>
-						<p>...</p>
+						<p></p>
 					</header>
 					<div class="flex flex-4">
 			
@@ -81,6 +75,16 @@
 						</article>
 						<footer>
 							<a href="lukaszalesky_cv.pdf" class="button special">Download my CV</a>
+							
+							<ul class="icons">
+								<li><a href="mailto:zalesky@hawaii.edu" class="icon fa-envelope"><span class="label">Twitter</span></a></li>
+								<li><a href="https://www.facebook.com/lukas.zalesky.1238" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+								<li><a href="https://twitter.com/cosmos_lukas" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+								
+								<!-- <li><a href="#" class="icon fa-linkedin"><span class="label">linkedIn</span></a></li> -->
+							</ul>
+								
+							
 						</footer>
 						
 
