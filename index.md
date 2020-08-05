@@ -22,7 +22,7 @@
 						<a  href="research.html">Research</a>
 						<a  href="code_resources.html">Code/Resources</a>
 						<a  href="outreach.html">Outreach</a>
-						<a href="#" > CV</a>
+						<a href="lukaszalesky_cv.pdf" > CV</a>
 					</nav>
 					<ul class="icons">
 						<li><a href="mailto:zalesky@hawaii.edu" class="icon fa-envelope"><span class="label">Twitter</span></a></li>
@@ -80,7 +80,7 @@
 							</p>
 						</article>
 						<footer>
-							<a href="#" class="button special">Download my CV</a>
+							<a href="lukaszalesky_cv.pdf" class="button special">Download my CV</a>
 						</footer>
 						
 
