@@ -1,0 +1,238 @@
+<!DOCTYPE HTML>
+<!--
+	Theory by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>lukaszalesky.research</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="subpage">
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="index.html" class="logo">Lukas M. Zalesky </a>
+					<nav id="nav">
+						<a  href="index.html">Home</a>
+						<a  href="research.html" class="active_page">Research</a>
+						<a  href="code_resources.html">Code/Resources</a>
+						<a  href="outreach.html">Outreach</a>
+						<a href="#" > CV</a>
+					</nav>
+					<ul class="icons">
+						<li><a href="mailto:zalesky@hawaii.edu" class="icon fa-envelope"><span class="label">Twitter</span></a></li>
+						<li><a href="https://www.facebook.com/lukas.zalesky.1238" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="https://twitter.com/cosmos_lukas" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+						<!-- <li><a href="#" class="icon fa-linkedin"><span class="label">linkedIn</span></a></li> -->
+					</ul>
+					<a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+				</div>
+			</header>
+
+		<!-- Banner -->
+			<section id="banner" style="background-image: url('images/earth_and_space.jpg');">
+				<h1 style="color:white"> Research  </h1>
+				<p style="color:white"> "All truths are easy to understand once they are discovered; the point is to discover them" - Galileo</p>
+			</section>
+
+		<!-- Three -->
+			<section id="three" class="wrapper">
+				<div class="inner">
+					<header class="align-center">
+						<h2> A summary of previous, ongoing, and completed projects  </h2>
+						<p style="color:black">
+						As an extragalactic astronomer, I am interested in phenomena beyond our home galaxy. My research interests include
+						supermassive black holes, gravitational lensing, and galaxy evolution, with 
+						an emphasis on the first few billion years after the Big Bang. Below you'll find descriptions of the different projects
+						I've been involved in. <a href="https://ui.adsabs.harvard.edu/search/q=%20author%3A%22Zalesky%2C%20Lukas%22&sort=date%20desc%2C%20bibcode%20desc&p_=0">Full ADS history.</a>
+					</header>
+					<p style="color:black"> </p>
+
+					<hr>
+				</header>
+					<div class="flex flex-4">
+						<article>
+							<header>
+								<img src="images/h20_scale.jpg" alt="Me" ALIGN="left" style="float:right;margin: 5px 20px 0 0; width:50% "/>
+								<h3>The Hawaii Twenty Square Degree Survey </h3>
+							</header>
+							<p style="color:black">  
+								The Hawaii Twenty Square Degree Survey (Hawaii Two-0, or H20) is an ultra-deep (AB mag &lt 27.5) survey covering two of the most easily accessed areas
+								of the sky by spacecraft in polar orbits: the North Ecliptic Pole (NEP) and the Euclid Deep Field Fornax (EDFF; overlapping with the Chandra Deep Field South).
+								This survey primarily involves Subaru Hyper Suprime-Cam imaging and Keck DEIMOS spectroscopy while also benefitting from the largest allocation of Spitzer
+								IRAC imaging ever granted (~ 5300 hours) via the Spitzer Legacy Survey. These data together enable numerous endeavors in high-redshift science focused on
+								galaxy formation/evolution and cosmology. 
+								<br>
+								<br>
+								I am leading the acquisition of photometry for the ~ 20 million sources detected in our survey and the characterization
+								of their spectral energy distributions. For my dissertation, I am using these data to measure the galaxy stellar mass function (the number of galaxies per unit co-moving
+								volume as a function of stellar mass) at z &gt 3.
+								<br>
+								<br>
+								See our website for more information, including up-to-date progress reports and details regarding data access.
+							 </p>
+							<footer>
+								<a href="https://project.ifa.hawaii.edu/h20/" class="button special">H20 website</a>
+								<br>
+								<br>
+								<br>
+							</footer>
+						</article>
+
+
+						<article>
+							<header>
+								<hr>
+								<h3 ALIGN="left">The Farmer Model-Based Photometry</h3>
+							</header>
+							<p style="color:black" ALIGN="left">
+								
+								As our images of the night sky become ever-deeper, new methods for photometry become advantageous, and in some cases, even necessary. 
+								As the depth of survey imaging increases, so does the fraction of sources that overlap with one another. Moreover, surveys ought to be
+								able to make use of high-resolution information present in some images but not in others. Addressing both of these concerns is the 
+								aim of <a href="http://thetractor.org/">The Tractor</a>, which enables robust profile fitting of sources using physically motivated models. With The Tractor,
+								sources nearby to each other can be modeled simultaneously to account for their overlapping flux, and models can also be built on high-resolution imaging
+								(e.g., optical imaging) and subsequently forced onto lower resolution imaging (e.g., infrared imaging).
+								<br>
+								<br>
+								The Tractor only provides models and methods for optimizing the models. 
+								We have developed The Farmer, a new code in python that wraps The Tractor and provides all of the in-between steps needed by a full-scale photometry pipeline.
+								The Farmer handles everything from source detection, to model fitting using The Tractor, to final catalog creation. All it requires is the input images.
+								<br>
+								<br>
+								See more in our paper, or check out the <a href="generic.html">code/resources</a> page for access to the code and documentation.
+								<img src="images/modeling.png" alt="Me" ALIGN="left" style="float:right;margin: 5px 20px 0 0; width:90% "/>
+							</p>
+							<footer>
+								<a href="#" class="button special">Paper in prep.</a>
+								<br>
+								<br>
+								<br>
+							</footer>
+						
+						</article>
+
+						<article>
+							<header>
+								<hr>
+								<img src="images/astrolens_models.png" alt="lens model" ALIGN="left" style="float:right;margin: 5px 20px 0 0; width:50% "/>
+								<h3>AStroLens: Automatic Strong-Lens Modeling</h3>
+							</header>
+
+							<p style="color:black">
+								Gravitational lensing by galaxy clusters enable a number of avenues for scientific inquiry. I have built a new code in python called AStroLens, which is short for 
+								automatic strong-lensing analysis. Unlike other codes, which require numerous constraints to produce credible lens models, AStroLens only requires the 
+								photometric and geometric properties of cluster galaxies. Because of this, AStroLens can quickly model many galaxy clusters at once while requiring only standard 
+								imaging. AStroLens is able to do this by 1) assuming that the light of cluster galaxies (which are not collisional) approximately traces
+								the total distribution of mass (dominated by dark matter, which is also not collisional), and 2) using a set of global parameters which are calibrated on known lensing clusters.
+								AStroLens takes as input a galaxy catalog and outputs numerous diagnostics including the galaxy cluster's magnification profile.
+								<br>
+								<br>
+								This code has been validated in two publications, and will soon become publicly available
+								through my <a href="generic.html">code/resources</a> page. 
+							</p>
+							<footer>
+								<a href="https://arxiv.org/abs/2007.12182" class="button special">Paper 1</a>
+								<br>
+								<br>
+								<br>
+							</footer>
+						</article>
+
+						<article>
+							<header>
+								<hr>
+								<img src="images/xray_spectra.png" alt="lens model" ALIGN="left" style="float:right;margin: 5px 20px 0 0; width:30% "/>
+								<h3>Measuring the Properties of AGN Accretion Disks with X-ray Spectroscopy</h3>
+							</header>
+
+							<p style="color:black">
+								Active Galactic Nuclei (AGN) emit across all wavelengths. X-ray emission from AGN is useful for understanding
+								properties of the supermassive black hole (SMBH) accretion disk. As shown in the figure below, one component of the observed
+								X-ray emission is "reflected" by the accretion disk. As this reflection can occur very near to the 
+								event horizon of the black hole, both where the rotational velocity of the disk is maximized and where gravitational effects are 
+								most extreme, the observed energy of X-ray emission can be dramatically affected both by Doppler and general relativistic effects. 
+								In particular, these energy shifts encode information 
+								about the accretion disk, such as its innermost stable circular orbit and its inclination angle. The former can be used to constrain the 
+								spin of the black hole. 
+								<br>
+								<br>
+								We have devised a new method using X-ray spectroscopy to measure the energy shifts of X-ray emission lines thereby directly constraining 
+								both the spins of supermassive black holes and their accretion disk inclination angles. Our method exploits gravitational microlensing, 
+								which can reveal narrow X-ray emission features otherwise too faint to resolve. 
+								<br>
+								<br>
+								Read more about this method in our paper.
+								<figure>
+									<img src="images/X_ray_refl.pptx_1.jpg" alt="lens model"  style="float:right;margin: 5px 20px 0 0; width:80% "/>
+									<figcaption>Figure credit: <a href="https://www.isdc.unige.ch/~ricci/Website/AGN_in_the_X-ray_band.html"> this website. </a> </figcaption>
+								</figure>
+							</p>
+							<footer>
+								<a href="https://arxiv.org/abs/1609.09490" class="button special">Paper 1</a>
+								<br>
+								<br>
+								<br>
+							</footer>
+						</article>
+
+						<!-- <article>
+							<header>
+								<h3>Next or Current Project</h3>
+							</header>
+							<p>Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamcorper laoreet, lectus arcu.</p>
+							<footer>
+								<a href="#" class="button special">More</a>
+							</footer>
+						</article> -->
+
+					</div>
+				</div>
+			</section>
+
+		<!-- 
+			<footer id="footer">
+				<div class="inner">
+					<div class="flex">
+						<div class="copyright">
+							&copy; Untitled. Design: <a href="https://templated.co">TEMPLATED</a>. Images: <a href="https://unsplash.com">Unsplash</a>.
+						</div>
+						<ul class="icons">
+							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon fa-linkedin"><span class="label">linkedIn</span></a></li>
+							<li><a href="#" class="icon fa-pinterest-p"><span class="label">Pinterest</span></a></li>
+							<li><a href="#" class="icon fa-vimeo"><span class="label">Vimeo</span></a></li>
+						</ul>
+					</div>
+				</div>
+			</footer>
+		-->
+
+		<!-- Footer -->
+		<footer id="footer">
+			<div class="inner">
+				<div class="flex">
+					<div class="copyright">
+						&copy; Lukas Zalesky. 
+						Design: <a href="https://templated.co">TEMPLATED</a>. 
+						Banner Image: <a href="https://images.nasa.gov/details-iss060e022358">Earth & the Milky Way from the ISS </a> Credit: NASA/JSC.
+					</div>
+					
+				</div>
+			</div>
+		</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
